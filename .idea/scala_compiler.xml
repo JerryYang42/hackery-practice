@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="hackery-practice" />
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="hackery-practice,hackery-practice.main,hackery-practice.test,scala-practice,scala-practice.dawkins-weasel,scala-practice.dawkins-weasel.main,scala-practice.dawkins-weasel.test,scala-practice.main,scala-practice.test,scala-practice.wordle,scala-practice.wordle.main,scala-practice.wordle.test" />
   </component>
 </project>
