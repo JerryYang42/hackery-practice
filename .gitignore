@@ -1,9 +1,35 @@
+# ── Scala / SBT ─────────────────────────────────────────────
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.bsp/
+.metals/
+.scala-build/
+project/target/
+project/project/
+
+# ── Java / Maven ─────────────────────────────────────────────
+**/target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
+# ── Python / uv ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.python-version
+dist/
+*.egg-info/
+.uv/
+
+# ── Node / TypeScript ─────────────────────────────────────────
+node_modules/
+dist/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -11,28 +37,8 @@ target/
 *.iws
 *.iml
 *.ipr
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
 
-### Mac OS ###
+# ── OS ────────────────────────────────────────────────────────
 .DS_Store
+Thumbs.db
